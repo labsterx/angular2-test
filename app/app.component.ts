@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+
 import { Hero } from './hero';
 import { HeroDetailComponent } from './hero-detail.component';
 
@@ -66,7 +67,6 @@ import { HeroDetailComponent } from './hero-detail.component';
 	  }
 	`],
 	directives: [HeroDetailComponent]
-
 })
 
 export class AppComponent { 
@@ -78,7 +78,6 @@ export class AppComponent {
 		this.selectedHero = hero;
 	}
 }
-
 
 var HEROES: Hero[] = [
 	{ "id": 11, "name": "Mr. Nice" },

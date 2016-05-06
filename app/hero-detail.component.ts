@@ -12,7 +12,7 @@ import { Hero } from './hero';
 				<input [(ngModel)]="hero.name" placeholder="name">
 			</div>
 		</div>
-		`,
+	`,
 })
 export class HeroDetailComponent {
 	@Input()
